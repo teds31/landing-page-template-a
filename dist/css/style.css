@@ -9,3 +9,11 @@ body,
     -o-background-size: cover;
     background-size: cover;
 }
+
+#video-pitch {
+  background-color: #FFFFFF;
+}
+
+#sign-up {
+  background-color: #DFDFDF;
+}
