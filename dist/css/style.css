@@ -10,6 +10,10 @@ body,
     background-size: cover;
 }
 
+.mask {
+  overflow: scroll;
+}
+
 #video-pitch, #icon-button {
   background-color: #FFFFFF;
 }
@@ -22,13 +26,32 @@ iframe {
 
 #sign-up {
   background-color: #DFDFDF;
+  text-align: center;
 }
 
 a {
   color: #FFFFFF;
 }
 
-.fa-send-o {
-  background-color: #FFFFFF;
-  font-size: 24px;
+.send-button {
+  background-color: white;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  display: inline-block;
 }
+
+.fa-send-o {
+  font-size: 175px;
+  position: absolute;
+  top: 15%;
+  left: 15%;
+}
+
+
+/* .btn-block {
+  position: absolute;
+  bottom: 7%;
+  left:0;
+} */
