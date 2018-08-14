@@ -10,10 +10,25 @@ body,
     background-size: cover;
 }
 
-#video-pitch {
+#video-pitch, #icon-button {
   background-color: #FFFFFF;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 #sign-up {
   background-color: #DFDFDF;
+}
+
+a {
+  color: #FFFFFF;
+}
+
+.fa-send-o {
+  background-color: #FFFFFF;
+  font-size: 24px;
 }
